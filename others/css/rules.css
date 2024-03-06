@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(47, 47, 133);
+    color: white;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    margin: 50px;
+}
+
+#change-color{
+    color: crimson;
+}
+
+.heading{
+    font-size: 5vw;
+    font-weight: 900;
+    font-family: "Orbitron", sans-serif;
+    margin-bottom: 50px;
+}
+
+.rules{
+    font-size: 2vw;
+    margin-bottom: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+@media (max-width: 600px){
+    .heading{
+        font-size: 8vw;
+        font-weight: 900;
+    }
+
+    .rules{
+        font-size: 4vw;
+    }
+}
